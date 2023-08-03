@@ -1,0 +1,30 @@
+/* 
+CSS margin collapse occurs when the top and bottom margins of blocks are combined into a single margin equal to the largest individual block margin.
+
+Margin collapse only occurs with vertical margins, not for horizontal margins. */
+
+/* The vertical margins will collapse to 30 pixels instead of adding to 50 pixels. */
+
+:root {
+  font-size: 1.8rem;
+}
+
+.block-one {
+  margin: 20px;
+  background-color: red;
+  color: white;
+}
+
+.block-two {
+  margin: 30px;
+  background-color: blue;
+  color: white;
+}
+
+.image-fit {
+  width: 50%;
+}
+
+.centered {
+  text-align: center;
+}
